@@ -35,6 +35,8 @@ cpuminer_SOURCES = \
   algo/argon2/argon2d/argon2d/opt.c \
   algo/argon2/argon2d/argon2d/argon2d_thread.c \
   algo/argon2/argon2d/argon2d/encoding.c \
+  algo/aurum/aurum.c \
+  algo/aurum/aurum-gate.c \
   algo/blake/sph_blake.c \
   algo/blake/blake256-hash-4way.c \
   algo/blake/blake512-hash-4way.c \
