@@ -1,8 +1,0 @@
-# AVX2 AES: Intel Haswell..Cometlake
-make clean || echo clean
-rm -f config.status
-# GCC 9 doesn't include AES with core-avx2
-CFLAGS="-O3 -march=core-avx2 -maes -Wall -fno-common" ./configure --with-curl
-make -j 8
-strip -s cpuminer
-mv cpuminer cpuminer-avx2
