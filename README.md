@@ -1,3 +1,8 @@
+# aurum is based off of pomelo algorithm
+
+https://www3.ntu.edu.sg/home/wuhj/research/pomelo/POMELO-v2-2015-04-13.pdf
+
+
 cpuminer-opt is a fork of cpuminer-multi by TPruvot with optimizations
 imported from other miners developped by lucas Jones, djm34, Wolf0, pooler,
 Jeff garzik, ig0tik3d, elmad, palmd, and Optiminer, with additional
